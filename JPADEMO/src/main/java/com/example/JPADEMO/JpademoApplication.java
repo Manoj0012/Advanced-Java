@@ -21,7 +21,7 @@ public class JpademoApplication {
 
 	private void createStudent(StudentDAO studentDAO){
 		System.out.println("Creating new student object ... ");
-		Student tempStudent = new Student("Abdul","Aazim","aazim.802201@sxcce.edu.in");
+		Student tempStudent = new Student("John","Jackson","john.802248@sxcce.edu.in");
 		System.out.println("Saving the student");
 		studentDAO.save(tempStudent);
 		System.out.println("Saved student. Generated id:"+tempStudent.getId());
